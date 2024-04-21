@@ -37,9 +37,10 @@ This project provides a robotic navigation system utilizing HC-SR04 ultrasonic s
 
 ## Usage
 
-- Power up the system. The robot will initialize and start in the obstacle-free pathfinding mode.
+- Power up the system. The NUCLEO-F401RE will initialize and start in the obstacle-free pathfinding mode.
 - Obstacles are added and expanded dynamically as they are detected by the sensors.
 - The path recalculates whenever a new obstacle is added or an existing one is updated.
+- All the output will be shown in terminal.
 
 ## Documentation
 
